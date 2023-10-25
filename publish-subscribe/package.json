@@ -1,0 +1,20 @@
+{
+  "name": "publish-subscribe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node publish.js",
+    "subscribe": "node subscribe.js",
+    "nats:docker": "docker run -p 4222:4222 -ti nats:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
