@@ -1,0 +1,17 @@
+{
+  "name": "queue-groups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "queue": "node queue.js",
+    "request": "node request.js",
+    "nats:docker": "docker run -p 4222:4222 -ti nats:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.17.0"
+  }
+}
